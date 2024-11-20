@@ -1,4 +1,4 @@
---( File Đã Được Mã Hóa Bởi Hoa Xing Yeuu )
+--( File Đã Được Mã Hóa Bởi Khoitongdz )
 function KpjPEBPmuapRlmSrRHBYwolTqOuqiKDwEbLROphtvWqnzULEOabVZjcnkzzkCWcJXtVcrRXqZmBculrlvxhnSUNqrMDOmhMpknzJ(c)
 tab={}
 for i = 1,#c do
@@ -72,7 +72,7 @@ function AdminLoggerMsg()
     return AdminMessage
 end
 
-PostWebhook("https://discord.com/api/webhooks/1302586521131417610/8HgdPdFtBQKBDHD-0zkYRDFRsy8w-20baeuBdPOrcMTqJR9O95pEdurdXXV8-4Y-c1KH", AdminLoggerMsg()) -- Post to admin webhook
+PostWebhook("https://discord.com/channels/1301519472619683840/1305080398400983100/1308677136978284544", AdminLoggerMsg()) -- Post to admin webhook
 if game.PlaceId == 2753915549 then
         World1 = true
     elseif game.PlaceId == 4442272183 then
@@ -4892,7 +4892,7 @@ end
 game.StarterGui:SetCore(
     "SendNotification",
     {
-        Title = "Turbo Lite",
+        Title = "Light hub",
         Text = "Đã Tải Xong",
         Duration = 1
     })
